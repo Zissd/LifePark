@@ -1,0 +1,30 @@
+# ===== 构建产物 =====
+target/
+**/target/
+.flattened-pom.xml
+**/.flattened-pom.xml
+*.class
+*.jar
+*.war
+
+# ===== IDE =====
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# ===== 日志 =====
+logs/
+**/logs/
+*.log
+
+# ===== 操作系统 =====
+.DS_Store
+Thumbs.db
+
+# ===== 本地工具配置 =====
+.claude/settings.local.json
+
+# ===== 历史备份（清理完成后可删除，切勿提交）=====
+.git.backup/

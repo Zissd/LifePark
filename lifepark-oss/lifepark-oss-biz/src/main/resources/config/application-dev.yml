@@ -1,0 +1,20 @@
+#=================================================================
+# minio (上传图片需要，需配置成自己的地址)
+#=================================================================
+#=================================================================
+# 对象存储配置
+#=================================================================
+storage:
+  minio:
+    endpoint: http://127.0.0.1:9000
+    accessKey: root
+    secretKey: 12345678
+    #bucketName: lifepark
+  aliyun-oss: # 接入阿里云
+    endpoint: oss-cn-beijing.aliyuncs.com
+    accessKey: your-access-key-id # 填写你自己的
+    secretKey: your-access-key-secret # 填写你自己的
+    #accessKeyId: your-access-key-id
+    #accessKeySecret: your-access-key-secret
+
+

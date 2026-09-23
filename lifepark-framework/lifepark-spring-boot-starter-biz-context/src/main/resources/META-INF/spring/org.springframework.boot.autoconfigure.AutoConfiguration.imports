@@ -1,0 +1,2 @@
+com.lifepark.framework.biz.context.config.ContextAutoConfiguration
+com.lifepark.framework.biz.context.config.FeignContextAutoConfiguration
